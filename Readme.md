@@ -19,7 +19,7 @@ cd notes-exporter
 ## Caveats
 
 1. Only Image attachements  are supported. Drawings do not export for some reason.
-2. Protected notes are not supported. They will only have a title.
+2. Protected notes are not supported. They will only have a title. For some reason, `Shortcuts.app` generates new empty image with the title of a protected note on each launch. Consider `make clean` to delete all notes and export them again.
 3. Markdown exports via _Make Markdown from Rich Text_ Shortcut action "comparable to Aaron Swartz's [html2text](https://github.com/aaronsw/html2text) script" as Apple says. Looks like it's done with [textutil](https://keith.github.io/xcode-man-pages/textutil.1.html). The converter doesn't work well with headings, tables and much more, that's why HTML sources are also present. Source RTF will lack of any attachment references for some reason.
     > Not sure why Apple decided to set html2text as their quality bar. Perhaps, there're much more modern converters.
 4. Notes with long titles may exceed file path limit.
