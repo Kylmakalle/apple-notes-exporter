@@ -6,7 +6,7 @@ Export Apple Notes to HTML and Markdown on macOS, using `Shortcuts.app` and a bi
 
 ```shell
 git clone https://github.com/Kylmakalle/apple-notes-exporter
-cd notes-exporter
+cd apple-notes-exporter
 ```
 
 2. Install `Export Notes` Shortcut using [Link](https://www.icloud.com/shortcuts/352f1880188240bca4259977f3f17357) or `open "Export Notes.shortcut"` file
