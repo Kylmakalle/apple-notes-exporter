@@ -2,6 +2,8 @@
 
 Export Apple Notes to HTML and Markdown on macOS, using `Shortcuts.app` and a bit~~e~~ of Python
 
+> See also [Apple Reminders Exporter](https://github.com/Kylmakalle/apple-reminders-exporter)
+
 1. Clone repository (Terminal)
 
 ```shell
